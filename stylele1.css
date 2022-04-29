@@ -1,0 +1,821 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #e5e5e5;
+}
+.header {
+  width: 100%;
+  height: 93px;
+  margin: 0 0 66px;
+  padding: 22px 47px 20px 31px;
+  background-image: 
+  linear-gradient(
+    to right, #c989dd 0%, 
+    rgba(201, 137, 221, 0.82) 0%,
+     rgba(201, 137, 221, 0) 68%), 
+     linear-gradient(to bottom, rgba(133, 202, 250, 0.9), 
+     rgba(133, 202, 250, 0.9));
+  padding: 0.75rem;
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+}
+.logo {
+  width: 76px;
+  height: 39.2px;
+  margin: 5px 600px 6.8px 0;
+  font-family: Inter;
+  font-size: 32.2px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+}
+.iconsContainer{
+  display: flex;
+  align-items: center;
+  width: 50% !important;
+  height: 51px;
+  margin: 0 0 0 0px;
+  padding: 8px 31px 7px 30px;
+  
+}
+.fulnamecontainer{
+  display: flex;
+}
+.icons {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+}
+.icons div {
+  background-color: white;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #c989dd;
+}
+.icons div:hover {
+  cursor: pointer;
+}
+.usericon{
+  width: 18.7px;
+  height: 18.7px;
+  padding: 4.3px 6.3px 7.9px 6.3px;
+  margin: 0 23px;
+}
+.burgerMenu{
+  display: none;
+}
+.docnotification {
+  background-color: #9e58ff !important;
+  color: white !important;
+}
+
+.docnotification,
+.notificationbill {
+  position: relative;
+}
+.circle {
+  position: absolute;
+  left: 65%;
+  right: 20.62%;
+  top: 0%;
+  bottom: 56.57%;
+  background: #e85555;
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+}
+.fulnamecontainer {
+  color: white;
+  width: 35%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.fulnamecontainer span {
+  margin-left: 0.5rem;
+}
+.fulnamecontainer::after {
+  content: "";
+  display: inline-block;
+  border: 7px solid transparent;
+  border-top: 5px solid #ffffff;
+  width: 8px;
+  height: 5px;
+  margin: 6px 0 6px 20px;
+  padding: 1px;
+  border-bottom: 0 none;
+  position: absolute;
+  right: -2em;
+}
+.firstsection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2.5rem 0;
+}
+.leftsection {
+  width: 696px;
+  height: 58px;
+  margin: 66px 76px 35px 0;
+  padding: 7px 0 7px 7px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.lineseparator {
+  width: 1px;
+  height: 19.5px;
+  margin: 5px 5px 0.5px 5px;
+  background-color: #aaa;
+  border: #aaa;
+}
+.buttoncontainer {
+  width: 262px;
+  height: 44px;
+  margin: 73px 86px 42px 78px;
+  padding: 9px 37px 13px 50px;
+  border-radius: 10px;
+  background-color: #c989dd;
+  color: white !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.buttoncontainer:hover{
+    cursor: pointer;
+}
+.btntext{
+  width: 144px;
+  height: 17px;
+  margin: 3px 0 2px 9px;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+}
+.col1 {
+  width: 155px;
+  margin: 0 26.5px 0 0;
+  padding: 3px 8px 3px 14px;
+  border-radius: 68px;
+  background-color: rgba(109, 192, 249, 0.1);
+  font-size: 16px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: normal;
+  text-align: left;
+  color: #6dc0f9;
+}
+.col2{
+  width: 171px;
+  height: 17px;
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.4;
+  letter-spacing: normal;
+  text-align: left;
+  color: #303030;
+}
+.col3{
+  width: 252px;
+  height: 17px;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: normal;
+  text-align: center;
+  color: #303030;
+}
+.secondsection {
+  width: 616px;
+  height: 57px;
+  margin: 35px 78px 35px 259px;
+  padding: 6px 13px 7px 22px;
+  border-radius: 10px;
+  background-color: rgba(187, 170, 204, 0.07);
+  display: flex;
+  align-items: center;
+}
+.section2col1 {
+  color: #f48888;
+  background-color: transparent;
+}
+.searchContainer {
+  background: #ffffff;
+  border: 2px solid rgba(170, 170, 170, 0.2);
+  box-sizing: border-box;
+  border-radius: 8px;
+  width: 211px;
+  height: 44px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+  color: #aaaaaa;
+  padding: 0 0.75rem;
+}
+.searchicon {
+  width: 80%;
+  text-align: end;
+}
+.fullwidth {
+  width: 100%;
+  height: 57px;
+  margin: 35px 0 46px;
+  padding: 3px 96px 5px 24px;
+  background-color: #F5F4F6;
+}
+.fillHeight {
+  width: 2px;
+  height: 48px;
+  margin: 0 26px 1px -32px;
+  background-color: rgba(170, 170, 170, 0.1);
+}
+.fwdiv {
+  width: 125px;
+  height: 17px;
+  margin: 20px 61px 12px 56px;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: normal;
+  text-align: center;
+  color: #aaa;
+}
+.doc{
+  width: 25%;
+}
+.date,
+.type {
+  color: #303030;
+}
+.content {
+  margin: 1.5rem 0;
+  padding-bottom: 2rem;
+}
+.titlecontainer {
+  height: 20px;
+  margin: 49px 175px 22px 42px;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.titlecontainer span {
+  width: 10%;
+}
+.fishier {
+  text-align: center;
+}
+.separator {
+  border: 1px solid #aaaaaa;
+  width: 95%;
+  margin: 1rem auto;
+}
+.secondrow span {
+  color: #303030;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+}
+.documents {
+  position: relative;
+}
+.mL{
+    margin-left: 2rem;
+}
+.documents::before {
+  content: "";
+  position: absolute;
+  border: 0.5px solid #303030;
+  box-sizing: border-box;
+  border-radius: 4px;
+  width: 17px;
+  height: 17px;
+}
+.footercontainer{
+    background: #FFFFFF;
+    padding: 1rem 0;
+}
+.upersection{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footerbtncontainer{
+  width: 334px;
+  height: 44px;
+  margin: 16px 82px 0px 0;
+  padding: 10px 34px 11px 59px;
+  border-radius: 5px;
+  background-color: #c989dd;
+}
+.minipara{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    color: #AAAAAA;
+}
+.ftitle{
+  width: 637px;
+  height: 109px;
+  margin: 3px 340px 85px 47px;
+  padding: 62px 14px 28px 16px;
+}
+.ftitle h3{
+  margin: 0 0px 38px 63px;
+  font-family: Montserrat;
+  font-size: 25px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.67;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000;
+}
+.ftitle span{
+  width: 607px;
+  height: 19px;
+  font-family: Montserrat;
+  font-size: 25px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.67;
+  letter-spacing: normal;
+  text-align: left;
+  color: #aaa;
+  margin-left: 3.8rem;
+}
+.middlesection{
+    background: #F8F8F8;
+    margin: 2rem 0;
+}
+.mininavcontainer{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 1rem;
+    width: 100%;
+}
+.mininavcontainer div h3{
+  width: 194px;
+  height: 22px;
+  margin: 0 61px 23px 13px;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.93;
+  letter-spacing: normal;
+  text-align: center;
+  color: #6dc0f9;
+}
+.paracon{
+  width: 255px;
+  margin: 26px 0px 20px 27px;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: normal;
+  text-align: left;
+  color: #303030;
+}
+.f1{
+  margin-left: 0 !important;
+}
+.f2{
+  margin-left: -15px !important;
+}
+.searchfre{
+    padding-right: 0rem;
+}
+.p1{
+  margin-top: 42px !important;
+}
+.Lorem-ipsum-lorem-impum-lorem {
+  width: 130px;
+  height: 51px;
+  margin: 10px 221px 25px 24rem;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000;
+}
+.nextline2{
+  display: block;
+  width: max-content;
+  margin-left: 23.9rem;
+  margin-top: 2rem;
+}
+.singlepara{
+    margin-top: 1.5rem;
+}
+.flex{
+    display: flex;
+    margin-top: -2.3rem;
+    padding-bottom: 1.5rem;
+}
+.bottomsection h3{
+  width: 282px;
+  height: 22px;
+  margin: 25px 141px 41px 0;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.93;
+  letter-spacing: normal;
+  text-align: center;
+  color: #6dc0f9;
+   
+}
+.bottomsection  p{
+  width: 170px;
+  height: 17px;
+  margin: 41px 54px 0 1.6rem;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000;
+}
+.alphabetic{
+  width: 50% !important;
+  height: 17px;
+  margin: 41px 223px 0 54px;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: 11.40px !important;
+  text-align: left;
+  color: #303030;
+}
+.lastsectioncontainer{
+    width: 100%;
+    height: 107px;
+    margin: 4px 0 0;
+    padding: 36px 0px 39px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.flogo{
+  width: 76px;
+  height: 39.2px;
+  margin: 0 0px 11.8px 1.2rem;
+  font-family: Inter;
+  font-size: 32.2px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: normal;
+  text-align: center;
+  color: #9e58ff;
+}
+.lcocopy{
+  width: 248px;
+  height: 16px;
+  margin: 11.8px 0 0 1.2rem;
+  font-family: Montserrat;
+  font-size: 13px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #303030;
+}
+.ficons{
+    margin-left: 12rem;
+    font-size: 1.5em !important;
+}
+
+@media only screen and (min-width: 500px) and (max-width:1035px) {
+    body{
+        overflow-x: hidden;
+    }
+    .logo{
+        font-size: 1.3rem;
+    }
+    .iconsContainer{
+        min-width: 50%;
+        margin-right: 1rem;
+    }
+    .fulnamecontainer{
+      margin-left: .3rem;
+    }
+    .fulnamecontainer::after{
+        right: 1rem;
+    }
+    .icons {
+        display: flex;
+        width: 50%;
+    }
+    .icons div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 25px;
+        height: 25px;
+    }
+    .headerIcons div{
+      margin:0 .2rem;
+    }
+    .icons div i {
+        font-size: .5em;
+    }
+    .circle {
+        width:9px;
+        height: 9px;
+    }
+    .fulnamecontainer{
+        font-size: .7rem;
+    }
+    .leftsection {
+        width: 300px;
+    }
+    .col1,
+    .col2,
+    .col3 {
+        padding: 1px 7px;
+        font-size: 9px;
+        line-height: 10px;
+    }
+    .buttoncontainer{
+        padding: 7px 23px;
+    }
+    .btntext,
+    .iconfile{
+        font-size: .8rem;
+    }
+    .secondsection{
+        width: 70%;
+    }
+    .secondsection div{
+        font-size: .8rem;
+    }
+    .fullwidth{
+        width: 100%;
+        font-size: .7em;
+    }
+    .searchContainer{
+        width: 147px;
+        height: 36px;
+    }
+    .titlecontainer  {
+        font-size: .7em;
+    }
+    .secondrow span{
+        font-size: .8em ;
+    }
+    .mL{
+        font-size: 1em !important;
+        margin-left: .8rem
+    }
+    .documents::before {
+        top: .2rem;
+        width: 10px;
+        height: 10px;
+    }
+    .footerbtncontainer {
+        width: 176px;
+        height: 37px;
+    }
+    .footerbtncontainer i{
+        font-size: .8em;
+        padding-right: .5rem;
+    }
+    .sectionone h3{
+        font-size: .9em !important;
+    }
+    .sectionone p,
+    .singlepara p{
+        font-size: .7em !important;
+    }
+    .alphabetic{
+        letter-spacing: .5em !important;
+    }
+    .ficons{
+      margin-left: 8rem;
+    }
+    .ficons div i{
+      font-size: 1em !important;
+    }
+}
+
+@media only screen and (min-width: 300px) and (max-width:500px) {
+  body{
+      overflow-x: hidden;
+  }
+  .logo{
+      font-size: 1.3rem;
+  }
+  .header{
+    position: relative;
+  }
+  .iconsContainer{
+    position: absolute;
+    right: 0;
+  }
+  .burgerMenu{
+    display: block;
+    width: 50%;
+    text-align: end;
+  }
+  .firstsection,
+  .secondsection,
+  .upersection,
+  .lastsectioncontainer,
+  .mininavcontainer{
+    flex-direction: column;
+  }
+  .fwdiv{
+    font-size: .9em !important;
+    font-weight: bold;
+    color:black;
+  }
+  .mininavcontainer{
+    text-align: center;
+  }
+  .sectionone h3{
+    width: 50%;
+    margin: .5rem auto;
+    text-align: center;
+    display: block !important;
+  }
+  .selphone{
+    height: auto;
+    padding: .5rem 0;
+  }
+  .flex {
+    flex-direction: column;
+    align-items: center;
+  }
+  .col1{
+    margin: .5rem 0;
+  }
+  .fullwidth{
+    flex-direction: row;
+
+  }
+  .fulnamecontainer,
+  .icons{
+      display: none !important;
+  }
+  .buttoncontainer {
+    margin-top: 1rem;
+    margin-right: 0;
+  }
+  .fulnamecontainer{
+      font-size: .7rem;
+  }
+  .leftsection {
+      width: 100%;
+      border-radius: 0;
+  }
+  .col1,
+  .col2,
+  .col3 {
+      padding: 1px 7px;
+      font-size: 12px;
+      line-height: 10px;
+  }
+  .buttoncontainer{
+      padding: 7px 23px;
+  }
+  .btntext,
+  .iconfile{
+      font-size: .8rem;
+  }
+  .secondsection{
+      width: 70%;
+  }
+  .secondsection div{
+      font-size: .8rem;
+  }
+  .fullwidth{
+      width: 100%;
+      font-size: .7em;
+  }
+  .searchContainer{
+      width: 147px;
+      height: 36px;
+  }
+  .titlecontainer  {
+      font-size: .81em;
+  }
+  .secondrow span{
+      font-size: .9em ;
+  }
+  .mL{
+      font-size: 1em !important;
+      margin-left: .8rem
+  }
+  .documents::before {
+      top: .2rem;
+      width: 10px;
+      height: 10px;
+  }
+  .footerbtncontainer {
+      width: 176px;
+      height: 37px;
+  }
+  .footerbtncontainer i{
+      font-size: .8em;
+      padding-right: .5rem;
+  }
+  .sectionone h3{
+      font-size: .9em !important;
+  }
+  .sectionone p,
+  .singlepara p{
+      font-size: .7em !important;
+  }
+  .alphabetic{
+      letter-spacing: .2em !important;
+      margin: .4rem 0;
+  }
+  .lastsectioncontainer{
+    position: relative;
+    height: 110px;
+  }
+  .footericons{
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0;
+    width: 50%;
+  }
+  .ficons{
+    width: 100%;
+    display: flex !important;
+    justify-content: space-between;
+    margin: 0;
+  }
+  
+}
